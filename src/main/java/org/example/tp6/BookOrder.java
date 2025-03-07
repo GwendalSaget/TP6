@@ -1,8 +1,8 @@
 package org.example.tp6;
 
 public class BookOrder implements Notif{
-    @Override
-    private void sendNotification(String email, String message){
+    //@Override
+    public void sendNotification(String email, String message){
         System.out.println("Sending email to " + email + " with message: " + message);
     }
     public void processOrder(Book book, String userEmail) {
